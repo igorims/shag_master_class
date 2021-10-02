@@ -1,6 +1,4 @@
-# Django Bootstrap Starter Kit
-
-#### Includes Bootstrap 5 and AbstractUser
+# Django Master Class for Chat.js Starter Kit
 
 ## Installation
 
