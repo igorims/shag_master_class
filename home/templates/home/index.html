@@ -1,5 +1,5 @@
 {% extends 'home/base.html' %}
-{% load static %}
+{% load humanize %}
 {% load crispy_forms_tags %}
 
 {% block title %}
@@ -14,7 +14,7 @@
 {% for movie in movies %}
     <ul>
         <li>
-            "{{ movie.title }}". Сборы:{{ movie.gross }} гривен |
+            <strong>"{{ movie.title }}"</strong>. Сборы: {{ movie.gross|intcomma }} гривен |
             <a href="{% url 'delete-movie' movie.pk %}" class="btn btn-close" title="Удалить"></a>
         </li>
     </ul>

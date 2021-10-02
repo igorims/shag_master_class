@@ -5,7 +5,7 @@
 Use this repository as Django project template:
 
 ```
-django-admin startproject --template https://github.com/igorims/shag_master_class.git <projectname>
+django-admin startproject --template https://github.com/igorims/shag_master_class/archive/master.zip <projectname>
 ```
 
 After that make migrations:
